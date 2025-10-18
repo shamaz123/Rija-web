@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Italianno&family=Licorice&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Playwrite+AU+TAS:wght@100..400&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.leftside{
+ display: flex;
+ list-style: none;
+ gap: 30px;
+ margin: auto;
+ text-align: center;
+ justify-content: center;
+}
+.nav1{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.right{
+     display: flex;
+ list-style: none;
+ gap: 15px;
+ text-align: center;
+}
+@media (max-width:670px) {
+    .nav1{
+        flex-direction: column;
+    }
+    .logo{
+        width: 30%;
+    }
+    .leftside{
+        width: 80%;
+        flex-direction: column;
+        align-items: start;
+    }
+    .right{
+        width: 80%;
+        padding: 2px;
+    }
+}
+.yeah{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+      
+ font-family: "Pacifico", cursive;
+
+
+}
+.name{
+    background-color:rgb(63, 11, 112);
+    color: white;
+}
+
+#section1{
+    margin:auto;
+    display: flex;
+    gap: 30px;
+    padding: 2%;
+    height: 100vh; 
+}
+
+.parent1{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    justify-content: end;
+    display: flex;
+ font-family: "Lobster", sans-serif;
+}
+
+
+#blink{
+ font-family: lobster;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ text-align: center;
+ 
+}
+#catagories23{
+       background-image: url(Therese\ Villamor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#child1{
+        height: 100%;
+    background-image: url(download\ \(8\).jpg);
+
+}
+#child2{
+        height: 100%;
+    background-image: url(download\ \(11\).jpg);
+
+}
+#child3{
+ height:100%;
+ background-image: url(download\ \(14\).jpg);
+ 
+
+}
+#child4{
+        height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0373/5968/1672/files/mobile_banners_new_arrivals.jpg);
+    
+}
+.catagories{
+        display: flex;
+    align-items: start;
+    text-align: end;
+    flex-direction: column;
+    color: black;
+    padding-left: 1%;
+    font-size: 30px;
+    background-size: cover;
+    
+    
+}
+.parent2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 100%;
+    width: 50%;
+
+
+}
+
+#order{
+ color: white;
+text-decoration: underline red;
+margin-bottom: 20px;
+}
+
+#shop{
+ color: black;
+text-decoration: underline red;
+
+}
+
+
+#noww{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 25px;
+}
+.nav2{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 10px;
+}
+#pagal{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    
+}
+.pagalBox{
+    text-align: center;
+}
+
+.pagalBox span{
+    color: rgb(233, 233, 42);
+}
+.pagalBoximg{
+    width: 70%;
+    height: 300px;
+}
+@media (max-width: 992px) {
+    #pagal {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    #pagal {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.hero {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;  /* Changed to 'top center' */
+  background-image: url(https://i.pinimg.com/1200x/fe/65/49/fe6549e309064a62bcb3f7f969bb0d1e.jpg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.classtext {
+  text-align: center;
+  color: white;
+}
+
+#noww {
+  background: #333;
+  border: none;
+  padding: 10px 20px;
+}
+
+#shop {
+  text-decoration: none;
+  color: white;
+}
+
+.doraemon{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 95vh;
+    margin: auto;
+    grid-template-rows: repeat (4 , 200px);
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    text-align: center;  
+}
+
+.panda{
+    display: flex;
+    padding-left: 1%;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+.chain span{
+    color: rgb(233, 233, 34);
+    font-size: small;}
+    
+.pink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2px;
+    background-color: rgb(208, 208, 208);
+}
+    
+  
+.club{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+     
+    
+}
+.ggg{
+    width: 50%;
+    
+}
+.club h1{
+    color: red;
+     font-family: "Lobster", sans-serif;
+}
+.reels{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 90px;
+    
+}
+.pagluu{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    font-size: small;
+}
+.pagluu span{
+    color: red;
+}
+.mardungii{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-size: cover;
+
+}
+.shhh{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.dillagi{
+   display: none;
+}
+.shhh img{
+   width: 100%;
+   height: 400px;
+}
+
+.shhh:hover{ 
+height: 400px;
+transition: 0.5s;
+img{
+display: none;
+}
+
+
+ .dillagi{
+display : block ;
+}
+}
+.bundi{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    display: grid;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+    background-color: #b8b4b4;
+}
+.faryad ul{
+    list-style: none;
+}
+
+.faryad{
+    width: 100%;
+    /* background-color: red; */
+}
+.formInput{
+margin: 10px;
+height: 30px;
+
+
+}
+input{
+border: none;
+width: 60%;
+text-align: center;
+height: 100%;
+}
+.subs{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    border: none;
+    
+}
